@@ -1,0 +1,213 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+html,body{
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  background-color: #121212;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #282828;
+  gap: 350px;
+}
+.container .left {
+  padding: 20px 50px;
+  text-decoration: none;
+}
+.container .left img {
+  width: 60px;
+  border-radius: 50%;
+}
+.left div {
+  text-align: center;
+  display: inline-flex;
+  position: absolute;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.left div span {
+  color: red;
+  font-size: 1.1rem;
+  font-size: 20px;
+}
+.container .right ul {
+  display: flex;
+  gap: 40px;
+  padding: 30px 50px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 25px;
+}
+
+.container ul li {
+  list-style: none;
+}
+.container ul li a {
+  text-decoration: none;
+}
+.container li a:hover {
+  color: red;
+  font-size: 1.3rem;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.container1 .left {
+  padding: 150px 50px;
+  font-size: 4rem;
+  margin-top: 100px;
+  margin-left: 250px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.container1 .left .red {
+  color: red;
+}
+.container1 .left .small {
+  font-size: 2rem;
+}
+.container1 .left #element {
+  color: red;
+  font-size: 2rem;
+}
+.container1 .left .icon {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  align-content: center;
+  margin: -10px -20px;
+}
+.icon i {
+  color: red;
+  font-size: 30px;
+}
+.container1 .right img {
+  margin-top: 100px;
+  margin-right: 200px;
+  border-radius: 100%;
+  width: 300px;
+  border: 8px solid red;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 200px;
+  background-color: #282828;
+}
+.container2 .right {
+  padding: 50px 200px;
+  margin-top: -50px;
+  font-size: 4rem;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: red;
+}
+.container2 .right p {
+  font-size: 1.5rem;
+  text-align: left;
+  width: 650px;
+  font-family: "Poppins", sans-serif; 
+}
+.container2 .left img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  border: 5px solid red;
+}
+.container2 .right .red {
+  color: red;
+}
+.container3 {
+  padding: 0px 100px;
+  padding-top: 70px;
+  padding-bottom: 200px;
+}
+.container3 p {
+  display: flex;
+  color: red;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+  justify-content: center;
+}
+.container3 .skills {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 20rem;
+  height: 30rem;
+  padding: 30px;
+  margin: 20px;
+  background-color: #282828;
+}
+.card i {
+  display: flex;
+  justify-content: center;
+  font-size: 120px;
+  color: red;
+}
+.card .title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+}
+.card p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: red;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+.container4 {
+  padding: 0px 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #282828;
+}
+.container4 .contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .left i{
+  display: flex;
+  color: red;
+  font-size: 2rem;
+}
+.contact .left a{
+ text-decoration: none;
+}
+.contact .left span{
+  display: flex;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif; 
+}
+.left .info{
+  display: flex;
+  gap: 20px;
+  left: 30px;
+}
+.locationframe{
+  width: 600px;
+  height: 300px;
+}
+footer{
+  padding: 25px;
+  text-align: center;
+  color: red;
+  font-family: "Poppins", sans-serif; 
+}
