@@ -105,7 +105,6 @@ body {
   background-color: #282828;
 }
 .container2 .right {
-  padding: 50px 200px;
   margin-top: -50px;
   font-size: 4rem;
   font-family: "Bebas Neue", sans-serif;
@@ -115,11 +114,11 @@ body {
 .container2 .right p {
   font-size: 1.5rem;
   text-align: left;
-  width: 650px;
   font-family: "Poppins", sans-serif; 
 }
 .container2 .left img {
   border-radius: 50%;
+  margin-right: 100px;
   width: 350px;
   height: 350px;
   border: 5px solid red;
@@ -141,6 +140,7 @@ body {
 }
 .container3 .skills {
   display: flex;
+  gap: 10px;
   justify-content: space-between;
 }
 .card {
@@ -221,6 +221,9 @@ footer{
     justify-content: space-between;
     gap: 10px;
   }
+  .container .right{
+    display: none;
+  }
   .container1{
     display: flex;
     flex-direction: column-reverse;
@@ -233,11 +236,13 @@ footer{
   .container1 .right img{
     margin-top: 50px;
     margin-right: 0px;
+    width: 250px;
+    height: auto;
   }
   .container2{
     display: flex;
     flex-direction: column-reverse;
-    padding: 50px;
+    padding: 50px 0px;
   }
   .container2 .right{
     margin-top: 0px;
@@ -245,17 +250,31 @@ footer{
   }
   .container2 .left img{
     margin-top: 30px;
+    margin-right: 0px;
+    width: 250px;
+    height: auto;
+  }
+  .container3{
+    padding: 70px 30px;
   }
   .container3 .skills{
     display: flex;
     flex-direction: column;
   }
   .container3 .skills .card{
-    width: 35rem;
-    height: 20rem;
-    margin-left: 50px;
+    width: auto;
+    height: auto;
+  }
+  .card .title{
+    font-size: 2rem;
+  }
+  .card p{
+    font-size: 1rem;
   }
   .container4 .right{
-    width: 300px;
+    display: none;
+  }
+  .contact .left span{
+    font-size: 1rem;
   }
 }
